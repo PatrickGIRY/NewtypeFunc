@@ -27,7 +27,7 @@ And you call `f` with `t` and two integers, then the result is the sum of the in
 
 Given a type `State` 
 
-   newtype State s a = State { runState :: s -> (a,s) }
+    newtype State s a = State { runState :: s -> (a,s) }
 
 State data comnstructor and `runState` record accessor as our means of putting a value and taking a value of the State type :
 
